@@ -8,7 +8,7 @@ while (continuePlaying) {
     let { guessesAllowed } = await inquirer.prompt([
         {
             name: "guessesAllowed",
-            message: "Enter the number of guesses u can make: ",
+            message: "Enter the number of guesses you can make: ",
             type: "number",
             filter: (input) => input || 1,
         },
@@ -37,17 +37,17 @@ while (continuePlaying) {
             }
             else if (predictionDiff > currentDiff) {
                 // better guess than previous try
-                console.log(`Wrong Guess!! But you are getting closer. `);
+                console.log(`Wrong Guess!! But you are getting CLOSER. `);
             }
             else {
                 // worse guess than previous try
-                console.log(`Wrong Guess!! And you are getting further away. `);
+                console.log(`Wrong Guess!! And you are getting FURTHER AWAY. `);
             }
             console.log(`Now you have ${guessesAllowed - attemptNum} attempt(s) left. `);
             predictionDiff = currentDiff;
         }
         else {
-            console.log("You Lost!!");
+            console.log(`You Lost!! The NUMBER was "${randomNum}"`);
         }
     }
     const { continueInput } = await inquirer.prompt([

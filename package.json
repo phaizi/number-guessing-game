@@ -1,6 +1,6 @@
 {
   "name": "phezee-number-guessing-game",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a simple command line based random number guessing game with some interesting hints. ",
   "main": "index.js",
   "type": "module",
