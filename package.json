@@ -1,0 +1,27 @@
+{
+  "name": "phezee-number-guessing-game",
+  "version": "1.0.1",
+  "description": "This is a simple command line based random number guessing game with some interesting hints. ",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaizi/number-guessing-game.git"
+  },
+  "author": "Faizan Mansur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phaizi/number-guessing-game/issues"
+  },
+  "homepage": "https://github.com/phaizi/number-guessing-game#readme",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
